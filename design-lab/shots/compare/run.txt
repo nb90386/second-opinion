@@ -1,0 +1,40 @@
+a-case-file          front   1440  overflow:no  axe:0 err:2 h1:Read the bill before you pay it.
+a-case-file          front   768   overflow:no  axe:0 err:2 h1:Read the bill before you pay it.
+a-case-file          front   390   overflow:no  axe:0 err:2 h1:Read the bill before you pay it.
+a-case-file          review  1440  overflow:no  axe:0 err:2 h1:6 questions to ask about this bill
+a-case-file          review  768   overflow:no  axe:0 err:2 h1:6 questions to ask about this bill
+a-case-file          review  390   overflow:no  axe:0 err:2 h1:6 questions to ask about this bill
+a-case-file          letter  1440  overflow:no  axe:0 err:2 h1:Your letter to the billing office
+a-case-file          letter  768   overflow:no  axe:0 err:2 h1:Your letter to the billing office
+a-case-file          letter  390   overflow:no  axe:0 err:2 h1:Your letter to the billing office
+b-examination-desk   front   1440  overflow:no  axe:0 err:2 h1:Check the bill against itself.
+b-examination-desk   front   768   overflow:no  axe:0 err:2 h1:Check the bill against itself.
+b-examination-desk   front   390   overflow:no  axe:0 err:2 h1:Check the bill against itself.
+b-examination-desk   review  1440  overflow:no  axe:0 err:2 h1:Cedar Hollow Regional Medical Center
+b-examination-desk   review  768   overflow:no  axe:0 err:2 h1:Cedar Hollow Regional Medical Center
+b-examination-desk   review  390   overflow:no  axe:0 err:2 h1:Cedar Hollow Regional Medical Center
+b-examination-desk   letter  1440  overflow:no  axe:0 err:2 h1:Your letter
+b-examination-desk   letter  768   overflow:no  axe:0 err:2 h1:Your letter
+b-examination-desk   letter  390   overflow:no  axe:0 err:2 h1:Your letter
+c-publication        front   1440  overflow:no  axe:0 err:2 h1:Your hospital bill, read line by line.
+c-publication        front   768   overflow:no  axe:0 err:2 h1:Your hospital bill, read line by line.
+c-publication        front   390   overflow:no  axe:0 err:2 h1:Your hospital bill, read line by line.
+c-publication        review  1440  overflow:no  axe:0 err:2 h1:Six questions for the billing office.
+c-publication        review  768   overflow:no  axe:0 err:2 h1:Six questions for the billing office.
+c-publication        review  390   overflow:no  axe:0 err:2 h1:Six questions for the billing office.
+c-publication        letter  1440  overflow:no  axe:0 err:2 h1:Your letter to the billing office
+c-publication        letter  768   overflow:no  axe:0 err:2 h1:Your letter to the billing office
+c-publication        letter  390   overflow:no  axe:0 err:2 h1:Your letter to the billing office
+d-one-question       front   1440  overflow:no  axe:0 err:2 h1:Six questions, one at a time.
+d-one-question       front   768   overflow:no  axe:0 err:2 h1:Six questions, one at a time.
+d-one-question       front   390   overflow:no  axe:0 err:2 h1:Six questions, one at a time.
+d-one-question       review  1440  overflow:no  axe:0 err:2 h1:Review your bill, one question at a time
+d-one-question       review  768   overflow:no  axe:0 err:2 h1:Review your bill, one question at a time
+d-one-question       review  390   overflow:no  axe:0 err:2 h1:Review your bill, one question at a time
+d-one-question       letter  1440  overflow:no  axe:0 err:2 h1:Your letter
+d-one-question       letter  768   overflow:no  axe:0 err:2 h1:Your letter
+d-one-question       letter  390   overflow:no  axe:0 err:2 h1:Your letter
+{ concept: 'a-case-file', sourceBytes: 83898 }
+{ concept: 'b-examination-desk', sourceBytes: 72624 }
+{ concept: 'c-publication', sourceBytes: 99656 }
+{ concept: 'd-one-question', sourceBytes: 71361 }

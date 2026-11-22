@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "web": true,
+  "services": [],
+  "constraints": ["no-services"]
+}

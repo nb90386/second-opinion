@@ -1,0 +1,594 @@
+[
+ {
+  "concept": "a-case-file",
+  "view": "front",
+  "width": 1440,
+  "overflow": false,
+  "pageHeight": 1565,
+  "h1": [
+   "Read the bill before you pay it."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/a-case-file/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1885
+ },
+ {
+  "concept": "a-case-file",
+  "view": "front",
+  "width": 768,
+  "overflow": false,
+  "pageHeight": 1889,
+  "h1": [
+   "Read the bill before you pay it."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/a-case-file/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1731
+ },
+ {
+  "concept": "a-case-file",
+  "view": "front",
+  "width": 390,
+  "overflow": false,
+  "pageHeight": 2495,
+  "h1": [
+   "Read the bill before you pay it."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/a-case-file/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1817
+ },
+ {
+  "concept": "a-case-file",
+  "view": "review",
+  "width": 1440,
+  "overflow": false,
+  "pageHeight": 2003,
+  "h1": [
+   "6 questions to ask about this bill"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/a-case-file/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1732
+ },
+ {
+  "concept": "a-case-file",
+  "view": "review",
+  "width": 768,
+  "overflow": false,
+  "pageHeight": 2900,
+  "h1": [
+   "6 questions to ask about this bill"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/a-case-file/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1776
+ },
+ {
+  "concept": "a-case-file",
+  "view": "review",
+  "width": 390,
+  "overflow": false,
+  "pageHeight": 3281,
+  "h1": [
+   "6 questions to ask about this bill"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/a-case-file/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1711
+ },
+ {
+  "concept": "a-case-file",
+  "view": "letter",
+  "width": 1440,
+  "overflow": false,
+  "pageHeight": 1995,
+  "h1": [
+   "Your letter to the billing office"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/a-case-file/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1732
+ },
+ {
+  "concept": "a-case-file",
+  "view": "letter",
+  "width": 768,
+  "overflow": false,
+  "pageHeight": 3300,
+  "h1": [
+   "Your letter to the billing office"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/a-case-file/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1661
+ },
+ {
+  "concept": "a-case-file",
+  "view": "letter",
+  "width": 390,
+  "overflow": false,
+  "pageHeight": 4238,
+  "h1": [
+   "Your letter to the billing office"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/a-case-file/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1659
+ },
+ {
+  "concept": "b-examination-desk",
+  "view": "front",
+  "width": 1440,
+  "overflow": false,
+  "pageHeight": 2283,
+  "h1": [
+   "Check the bill against itself."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/b-examination-desk/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1666
+ },
+ {
+  "concept": "b-examination-desk",
+  "view": "front",
+  "width": 768,
+  "overflow": false,
+  "pageHeight": 3061,
+  "h1": [
+   "Check the bill against itself."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/b-examination-desk/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1663
+ },
+ {
+  "concept": "b-examination-desk",
+  "view": "front",
+  "width": 390,
+  "overflow": false,
+  "pageHeight": 3609,
+  "h1": [
+   "Check the bill against itself."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/b-examination-desk/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1659
+ },
+ {
+  "concept": "b-examination-desk",
+  "view": "review",
+  "width": 1440,
+  "overflow": false,
+  "pageHeight": 2830,
+  "h1": [
+   "Cedar Hollow Regional Medical Center"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/b-examination-desk/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1667
+ },
+ {
+  "concept": "b-examination-desk",
+  "view": "review",
+  "width": 768,
+  "overflow": false,
+  "pageHeight": 3711,
+  "h1": [
+   "Cedar Hollow Regional Medical Center"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/b-examination-desk/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1748
+ },
+ {
+  "concept": "b-examination-desk",
+  "view": "review",
+  "width": 390,
+  "overflow": false,
+  "pageHeight": 4507,
+  "h1": [
+   "Cedar Hollow Regional Medical Center"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/b-examination-desk/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1657
+ },
+ {
+  "concept": "b-examination-desk",
+  "view": "letter",
+  "width": 1440,
+  "overflow": false,
+  "pageHeight": 1843,
+  "h1": [
+   "Your letter"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/b-examination-desk/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1647
+ },
+ {
+  "concept": "b-examination-desk",
+  "view": "letter",
+  "width": 768,
+  "overflow": false,
+  "pageHeight": 3110,
+  "h1": [
+   "Your letter"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/b-examination-desk/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1647
+ },
+ {
+  "concept": "b-examination-desk",
+  "view": "letter",
+  "width": 390,
+  "overflow": false,
+  "pageHeight": 3710,
+  "h1": [
+   "Your letter"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/b-examination-desk/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1647
+ },
+ {
+  "concept": "c-publication",
+  "view": "front",
+  "width": 1440,
+  "overflow": false,
+  "pageHeight": 6518,
+  "h1": [
+   "Your hospital bill, read line by line."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/c-publication/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1665
+ },
+ {
+  "concept": "c-publication",
+  "view": "front",
+  "width": 768,
+  "overflow": false,
+  "pageHeight": 5619,
+  "h1": [
+   "Your hospital bill, read line by line."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/c-publication/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1656
+ },
+ {
+  "concept": "c-publication",
+  "view": "front",
+  "width": 390,
+  "overflow": false,
+  "pageHeight": 7435,
+  "h1": [
+   "Your hospital bill, read line by line."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/c-publication/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1659
+ },
+ {
+  "concept": "c-publication",
+  "view": "review",
+  "width": 1440,
+  "overflow": false,
+  "pageHeight": 8255,
+  "h1": [
+   "Six questions for the billing office."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/c-publication/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1703
+ },
+ {
+  "concept": "c-publication",
+  "view": "review",
+  "width": 768,
+  "overflow": false,
+  "pageHeight": 8876,
+  "h1": [
+   "Six questions for the billing office."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/c-publication/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1669
+ },
+ {
+  "concept": "c-publication",
+  "view": "review",
+  "width": 390,
+  "overflow": false,
+  "pageHeight": 11204,
+  "h1": [
+   "Six questions for the billing office."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/c-publication/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1659
+ },
+ {
+  "concept": "c-publication",
+  "view": "letter",
+  "width": 1440,
+  "overflow": false,
+  "pageHeight": 1982,
+  "h1": [
+   "Your letter to the billing office"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/c-publication/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1641
+ },
+ {
+  "concept": "c-publication",
+  "view": "letter",
+  "width": 768,
+  "overflow": false,
+  "pageHeight": 3285,
+  "h1": [
+   "Your letter to the billing office"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/c-publication/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1640
+ },
+ {
+  "concept": "c-publication",
+  "view": "letter",
+  "width": 390,
+  "overflow": false,
+  "pageHeight": 4353,
+  "h1": [
+   "Your letter to the billing office"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/c-publication/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1638
+ },
+ {
+  "concept": "d-one-question",
+  "view": "front",
+  "width": 1440,
+  "overflow": false,
+  "pageHeight": 1968,
+  "h1": [
+   "Six questions, one at a time."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/d-one-question/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1650
+ },
+ {
+  "concept": "d-one-question",
+  "view": "front",
+  "width": 768,
+  "overflow": false,
+  "pageHeight": 2145,
+  "h1": [
+   "Six questions, one at a time."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/d-one-question/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1641
+ },
+ {
+  "concept": "d-one-question",
+  "view": "front",
+  "width": 390,
+  "overflow": false,
+  "pageHeight": 3177,
+  "h1": [
+   "Six questions, one at a time."
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/d-one-question/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1641
+ },
+ {
+  "concept": "d-one-question",
+  "view": "review",
+  "width": 1440,
+  "overflow": false,
+  "pageHeight": 1501,
+  "h1": [
+   "Review your bill, one question at a time"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/d-one-question/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1660
+ },
+ {
+  "concept": "d-one-question",
+  "view": "review",
+  "width": 768,
+  "overflow": false,
+  "pageHeight": 1417,
+  "h1": [
+   "Review your bill, one question at a time"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/d-one-question/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1645
+ },
+ {
+  "concept": "d-one-question",
+  "view": "review",
+  "width": 390,
+  "overflow": false,
+  "pageHeight": 1787,
+  "h1": [
+   "Review your bill, one question at a time"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/d-one-question/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1652
+ },
+ {
+  "concept": "d-one-question",
+  "view": "letter",
+  "width": 1440,
+  "overflow": false,
+  "pageHeight": 1679,
+  "h1": [
+   "Your letter"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/d-one-question/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1646
+ },
+ {
+  "concept": "d-one-question",
+  "view": "letter",
+  "width": 768,
+  "overflow": false,
+  "pageHeight": 3087,
+  "h1": [
+   "Your letter"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/d-one-question/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1642
+ },
+ {
+  "concept": "d-one-question",
+  "view": "letter",
+  "width": 390,
+  "overflow": false,
+  "pageHeight": 3442,
+  "h1": [
+   "Your letter"
+  ],
+  "axe": [],
+  "errors": [
+   "Access to XMLHttpRequest at 'file:///Users/edge/Forge/runner/artifacts/second-opinion-studio/design-lab/d-one-question/styles.css' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-untrusted, data, http, https.",
+   "Failed to load resource: net::ERR_FAILED"
+  ],
+  "loadMs": 1643
+ },
+ {
+  "concept": "a-case-file",
+  "sourceBytes": 83898
+ },
+ {
+  "concept": "b-examination-desk",
+  "sourceBytes": 72624
+ },
+ {
+  "concept": "c-publication",
+  "sourceBytes": 99656
+ },
+ {
+  "concept": "d-one-question",
+  "sourceBytes": 71361
+ }
+]

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Second Opinion design lab</title>
+<style>
+@font-face { font-family: "Geist"; src: url("shared/fonts/geist-latin.woff2") format("woff2"); font-weight: 100 900; }
+:root {
+  --ground: #EDEDEA; --sheet: #FFFFFF; --ink: #121314; --ink-2: #55595E; --line: #DCDCD8; --pick: #1D5FBF;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--ground); color: var(--ink); font: 15px/1.5 Geist, system-ui, sans-serif; font-variant-numeric: tabular-nums; }
+::selection { background: #CFE0F7; }
+:focus-visible { outline: 2px solid var(--pick); outline-offset: 2px; }
+a { color: inherit; text-underline-offset: 3px; }
+header { display: flex; flex-wrap: wrap; gap: 12px 32px; align-items: baseline; padding: 20px 24px 12px; }
+h1 { font-size: 20px; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+header p { margin: 0; color: var(--ink-2); }
+header nav { margin-left: auto; display: flex; gap: 20px; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 0 24px 16px; align-items: center; }
+.seg { display: inline-flex; flex-wrap: wrap; background: #E0E0DC; border-radius: 22px; padding: 3px; }
+.seg button { white-space: nowrap; }
+.seg button { font: inherit; border: 0; background: none; border-radius: 999px; padding: 0 14px; min-height: 36px; color: var(--ink-2); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--sheet); color: var(--ink); font-weight: 600; }
+.seg button:hover { color: var(--ink); }
+.label { color: var(--ink-2); margin-right: 6px; }
+main { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 16px; padding: 0 24px 24px; }
+.stage { background: #D9D9D5; border-radius: 12px; height: calc(100vh - 150px); min-height: 520px; overflow: hidden; position: relative; }
+.frame { position: absolute; top: 12px; left: 0; transform-origin: top left; background: #fff; border: 0; display: block; }
+.stage .dims { position: absolute; right: 12px; bottom: 10px; font-size: 13px; color: var(--ink-2); }
+aside { background: var(--sheet); border-radius: 12px; padding: 20px; height: calc(100vh - 150px); min-height: 520px; overflow: auto; }
+aside h2 { font-size: 22px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.015em; }
+aside .idea { margin: 0 0 16px; color: var(--ink-2); }
+table { border-collapse: collapse; width: 100%; }
+td, th { padding: 6px 0; text-align: left; font-weight: 400; border-bottom: 1px solid #EFEFEC; vertical-align: top; }
+td.n { text-align: right; width: 8.5em; white-space: nowrap; font-weight: 600; }
+.meter { display: inline-block; height: 6px; background: var(--ink); border-radius: 3px; vertical-align: middle; margin-left: 8px; }
+.winner { display: inline-block; background: var(--ink); color: #fff; border-radius: 999px; padding: 2px 10px; font-size: 13px; margin-bottom: 8px; }
+aside h3 { font-size: 15px; margin: 18px 0 4px; }
+aside ul { margin: 0; padding-left: 18px; }
+@media (max-width: 900px) { main { grid-template-columns: 1fr; } aside { height: auto; } .stage { height: 70vh; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Second Opinion design lab</h1>
+  <p>Four directions, one synthetic bill and the real engine's findings.</p>
+  <nav><a href="DECISION.md">Decision document</a><a href="LAB-BRIEF.md">Lab brief</a></nav>
+</header>
+<div class="bar">
+  <div><span class="label" id="l-c">Concept</span><span class="seg" role="group" aria-labelledby="l-c" id="concepts"></span></div>
+  <div><span class="label" id="l-v">View</span><span class="seg" role="group" aria-labelledby="l-v" id="views"></span></div>
+  <div><span class="label" id="l-w">Width</span><span class="seg" role="group" aria-labelledby="l-w" id="widths"></span></div>
+  <a id="open" href="#" target="_blank" rel="noopener">Open full page</a>
+</div>
+<main>
+  <div class="stage" id="stage"><iframe class="frame" id="frame" title="Prototype preview"></iframe><span class="dims" id="dims"></span></div>
+  <aside id="card" aria-live="polite"></aside>
+</main>
+<script src="scores.js"></script>
+<script>
+const CONCEPTS = window.LAB.concepts;
+const state = { c: CONCEPTS[0].dir, v: "front", w: 1440 };
+try { Object.assign(state, JSON.parse(localStorage.getItem("lab") || "{}")); } catch {}
+const seg = (el, items, key) => {
+  el.innerHTML = "";
+  for (const [value, label] of items) {
+    const b = document.createElement("button");
+    b.type = "button"; b.textContent = label; b.setAttribute("aria-pressed", String(state[key] === value));
+    b.onclick = () => { state[key] = value; render(); };
+    el.append(b);
+  }
+};
+function render() {
+  try { localStorage.setItem("lab", JSON.stringify(state)); } catch {}
+  seg(concepts, CONCEPTS.map(c => [c.dir, c.short]), "c");
+  seg(views, [["front", "Front"], ["review", "Review"], ["letter", "Letter"]], "v");
+  seg(widths, [[1440, "1440"], [768, "768"], [390, "390"]], "w");
+  const url = `${state.c}/index.html#${state.v}`;
+  if (frame.dataset.src !== url) { frame.dataset.src = url; frame.src = url; }
+  open.href = url;
+  fit();
+  const c = CONCEPTS.find(x => x.dir === state.c);
+  card.innerHTML = `${c.winner ? '<span class="winner">Recommended</span>' : ""}<h2>${c.name}</h2><p class="idea">${c.idea}</p>
+    <table><tbody>${c.scores.map(([k, n]) => `<tr><th scope="row">${k}</th><td class="n">${n}<span class="meter" style="width:${n * 5}px" aria-hidden="true"></span></td></tr>`).join("")}
+    <tr><th scope="row"><strong>Weighted</strong></th><td class="n">${c.total}</td></tr></tbody></table>
+    <h3>Strongest</h3><ul>${c.pros.map(p => `<li>${p}</li>`).join("")}</ul>
+    <h3>Weakest</h3><ul>${c.cons.map(p => `<li>${p}</li>`).join("")}</ul>`;
+}
+function fit() {
+  const w = Number(state.w), sw = stage.clientWidth - 24, sh = stage.clientHeight - 24;
+  const h = w < 500 ? 844 : 900, s = Math.min(1, sw / w, sh / h);
+  frame.style.width = `${w}px`; frame.style.height = `${sh / s}px`; frame.style.transform = `scale(${s})`; frame.style.left = `${(stage.clientWidth - w * s) / 2}px`;
+  dims.textContent = `${w}px · shown at ${Math.round(s * 100)}%`;
+}
+addEventListener("resize", fit);
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#0D4A3B">
+<title>Second Opinion, the bill read with you</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="front">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="mast">
+  <a class="wordmark" href="#front">Second Opinion</a>
+  <div class="sample" role="group" aria-label="Example bill">
+    <button type="button" data-sample="emergency-visit" aria-pressed="true">Emergency visit</button>
+    <button type="button" data-sample="three-night-stay" aria-pressed="false">Three-night stay</button>
+  </div>
+  <nav class="nav" aria-label="Sections">
+    <a href="#front" data-nav="front"><span>Cover</span></a>
+    <a href="#review" data-nav="review"><span>Review</span></a>
+    <a href="#letter" data-nav="letter"><span>Letter</span></a>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+  <section id="view-front" class="view" data-view="front" aria-labelledby="h-front"></section>
+  <section id="view-review" class="view" data-view="review" aria-labelledby="h-review" hidden></section>
+  <section id="view-letter" class="view" data-view="letter" aria-labelledby="h-letter" hidden></section>
+</main>
+
+<footer class="foot">
+  <p><strong>Synthetic example:</strong> fictional hospital, account and prices.</p>
+  <p>Second Opinion asks questions. It does not give legal or medical advice, and it never calls a charge wrong because it is large.</p>
+</footer>
+
+<div id="status" class="sr" role="status" aria-live="polite"></div>
+<div id="toast" class="toast" hidden><span class="toast-msg"></span><button type="button" class="toast-undo" hidden>Undo</button></div>
+<div id="gloss" class="gloss" role="dialog" aria-modal="false" tabindex="-1" hidden></div>
+
+<dialog id="own" class="own" aria-labelledby="own-h">
+  <h2 id="own-h">Use your own bill</h2>
+  <p>Second Opinion reads a CSV or lines you type in. It does not read PDFs or photos.</p>
+  <ul>
+    <li><strong>CSV:</strong> one row per charge, with date, code, description, quantity, unit price and amount.</li>
+    <li><strong>Typed in:</strong> add each line from your statement by hand.</li>
+  </ul>
+  <p class="own-note">This design prototype loads only the two synthetic examples, so there is nothing to upload here.</p>
+  <form method="dialog"><button class="btn btn--solid" value="close">Close</button></form>
+</dialog>
+
+<script src="../shared/case.js"></script>
+<script src="../shared/helpers.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

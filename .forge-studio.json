@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "name": "second-opinion-studio",
+  "template": "next",
+  "integrations": [],
+  "goals": [
+    "saas"
+  ],
+  "design_direction": "product"
+}

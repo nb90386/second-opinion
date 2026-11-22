@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Second Opinion: the examination desk</title>
+<meta name="description" content="Check a hospital bill against itself. Concept B, the Financial Examination Desk.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <a class="mark" href="#front" aria-label="Second Opinion, front page">Second Opinion</a>
+  <nav class="views" aria-label="Views">
+    <a href="#front" data-nav="front">Front</a>
+    <a href="#review" data-nav="review">Review</a>
+    <a href="#letter" data-nav="letter">Letter</a>
+  </nav>
+</header>
+
+<div class="billbar">
+  <div class="samples" role="group" aria-label="Example bill">
+    <button type="button" data-sample="emergency-visit" aria-pressed="true">Emergency visit</button>
+    <button type="button" data-sample="three-night-stay" aria-pressed="false">Three-night stay</button>
+  </div>
+  <p class="synth">Synthetic example: fictional hospital, account and prices.</p>
+</div>
+
+<main id="main" tabindex="-1">
+  <section class="sheet view" id="view-front" data-view="front" aria-labelledby="h-front" hidden></section>
+  <section class="sheet view" id="view-review" data-view="review" aria-labelledby="h-review" hidden></section>
+  <section class="sheet view" id="view-letter" data-view="letter" aria-labelledby="h-letter" hidden></section>
+</main>
+
+<div class="dock" id="dock" hidden></div>
+
+<dialog id="own" aria-labelledby="own-h">
+  <form method="dialog">
+    <h2 id="own-h">Use your own bill</h2>
+    <p>Second Opinion reads a CSV file or lines you type in yourself. It does not read PDFs or photos.</p>
+    <p>If your statement is on paper or a PDF, type the lines in, or copy them into the CSV template. Nothing leaves this page in this prototype.</p>
+    <div class="dlg-actions"><button class="btn primary" value="close">Got it</button></div>
+  </form>
+</dialog>
+
+<div id="live" class="sr" role="status" aria-live="polite"></div>
+
+<script src="../shared/case.js"></script>
+<script src="../shared/helpers.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "second-opinion-studio",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "next typegen && tsc --noEmit",
+    "lint": "eslint . --max-warnings 0",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "build": "next build --webpack",
+    "test:browser": "node tests/browser.mjs",
+    "test:a11y": "node tests/browser.mjs --a11y"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "axe-core": "^4.14.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
+    "playwright": "^1.58.0",
+    "typescript": "^5.9"
+  },
+  "type": "module"
+}

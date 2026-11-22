@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Second Opinion: one question at a time</title>
+<meta name="description" content="Your hospital bill, read line by line. The things worth asking about arrive one calm question at a time, and your letter builds as you go.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="front">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#front">Second Opinion<span aria-hidden="true">.</span></a>
+    <nav aria-label="Views">
+      <a href="#front" data-nav="front">Overview</a>
+      <a href="#review" data-nav="review">Questions</a>
+      <a href="#letter" data-nav="letter">Letter</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- FRONT -->
+  <section id="view-front" class="view" aria-labelledby="front-title" hidden>
+    <div class="wrap front-hero">
+      <div class="front-copy">
+        <h1 id="front-title" tabindex="-1"></h1>
+        <p class="lede" id="front-lede"></p>
+        <div class="front-actions">
+          <a class="btn btn-primary" href="#review" data-act="start">Open the example bill</a>
+          <button class="btn btn-quiet" type="button" data-act="own" aria-expanded="false" aria-controls="own-panel">Use your own bill</button>
+        </div>
+        <div class="own-panel" id="own-panel" hidden>
+          <p>The real product reads a CSV file or lines you type in. It does not read PDFs or photos. This prototype only has the two example bills below.</p>
+        </div>
+        <div class="sample-line">
+          <p id="sample-label-front">Example bill</p>
+          <div class="seg-switch" data-sample-switch role="group" aria-labelledby="sample-label-front"></div>
+        </div>
+      </div>
+      <div class="front-stage">
+        <div class="stack" id="front-card"></div>
+        <p class="syn">Synthetic example: fictional hospital, account and prices.</p>
+      </div>
+    </div>
+
+    <div class="wrap front-more">
+      <section class="more-col" aria-labelledby="all-q-title">
+        <h2 id="all-q-title">All the questions</h2>
+        <ol class="q-index" id="q-index"></ol>
+      </section>
+      <section class="more-col" aria-labelledby="how-title">
+        <h2 id="how-title">How it goes</h2>
+        <ol class="how">
+          <li><strong>You read one question.</strong> The lines it is about are right there, next to why we noticed it and why it may be fine.</li>
+          <li><strong>You decide.</strong> Ask about it, say you are not sure, or set it aside. You can undo any choice.</li>
+          <li><strong>The letter builds itself.</strong> Each question you keep is added, in plain words, to a calm letter you can edit.</li>
+        </ol>
+        <h2 class="h2-gap" id="never-title">What it will not do</h2>
+        <ul class="never" aria-labelledby="never-title">
+          <li>Call a charge wrong because it costs a lot.</li>
+          <li>Add up amounts in question into a total or promise savings.</li>
+          <li>Accuse anyone. The letter asks questions.</li>
+        </ul>
+      </section>
+    </div>
+  </section>
+
+  <!-- REVIEW -->
+  <section id="view-review" class="view" aria-labelledby="review-title" data-mode="card" hidden>
+    <h1 id="review-title" class="sr">Review your bill, one question at a time</h1>
+    <div class="wrap review-grid">
+      <div class="deck-col">
+        <div class="prog" id="prog"></div>
+        <div class="deck" id="deck"></div>
+        <div class="deck-tools" id="deck-tools"></div>
+        <div class="decide" id="decide" role="group" aria-label="Your decision on this question">
+          <div class="decide-in">
+            <button class="btn btn-primary" type="button" data-act="decide" data-choice="keep">Ask about this</button>
+            <button class="btn btn-outline" type="button" data-act="decide" data-choice="unsure">I'm not sure</button>
+            <button class="btn btn-outline" type="button" data-act="decide" data-choice="aside">Set aside</button>
+          </div>
+        </div>
+      </div>
+      <aside class="tray" id="tray" data-open="false" aria-label="Your letter so far">
+        <button class="tray-handle" type="button" id="tray-handle" data-act="tray" aria-expanded="false" aria-controls="tray-body"></button>
+        <h2 class="tray-title" id="tray-title"></h2>
+        <div class="tray-body" id="tray-body" tabindex="0" aria-label="Your letter so far"></div>
+        <div class="tray-foot"><a class="btn btn-outline" href="#letter">Edit and copy the letter</a></div>
+      </aside>
+    </div>
+    <div class="scrim" id="scrim" data-act="tray-close" hidden></div>
+  </section>
+
+  <!-- LETTER -->
+  <section id="view-letter" class="view" aria-labelledby="letter-title" hidden>
+    <div class="wrap">
+      <div class="letter-head">
+        <h1 id="letter-title" tabindex="-1">Your letter</h1>
+        <p class="lede" id="letter-lede"></p>
+      </div>
+      <div class="letter-grid">
+        <div class="letter-main">
+          <div class="letter-bar">
+            <button class="btn btn-primary" type="button" data-act="copy">Copy letter</button>
+            <button class="btn btn-outline" type="button" data-act="download">Download .txt</button>
+          </div>
+          <div id="letter-note" class="letter-note" hidden></div>
+          <div class="paper">
+            <label class="sr" for="letter-text">Letter text. You can edit anything.</label>
+            <textarea id="letter-text" spellcheck="true" rows="20"></textarea>
+          </div>
+          <p class="syn syn-letter">Synthetic example: fictional hospital, account and prices. Nothing is sent from this page.</p>
+        </div>
+        <div class="letter-side" id="letter-side" tabindex="0" aria-label="Letter details"></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p>Synthetic example: fictional hospital, account and prices.</p>
+    <div class="foot-sw">
+      <p id="sample-label-foot">Example bill</p>
+      <div class="seg-switch" data-sample-switch role="group" aria-labelledby="sample-label-foot"></div>
+    </div>
+  </div>
+</footer>
+
+<div id="live" class="sr" role="status" aria-live="polite"></div>
+
+<script src="../shared/case.js"></script>
+<script src="../shared/helpers.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
